@@ -1,3 +1,9 @@
+# Use Powershell
+# cd mslearn-ai-vision/Labfiles/face/python/face-api
+# .\labenv\Scripts\Activate.ps1
+#  pip install -r .\requirements.txt
+#  pip install azure-ai-vision-face==1.0.0b2
+# python analyze-faces.py images/face1.jpg
 from dotenv import load_dotenv
 import os
 import sys
